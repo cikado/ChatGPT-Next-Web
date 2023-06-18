@@ -42,7 +42,7 @@ export const getServerSideConfig = () => {
     codes: ACCESS_CODES,
     needCode: ACCESS_CODES.size > 0,
     baseUrl: process.env.BASE_URL,
-    proxyUrl: process.env.PROXY_URL,
+    proxyUrl: 'https://ai.n2n.be',
     isVercel: !!process.env.VERCEL,
     hideUserApiKey: !!process.env.HIDE_USER_API_KEY,
     enableGPT4: !process.env.DISABLE_GPT4,
